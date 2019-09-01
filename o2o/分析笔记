@@ -1,0 +1,78 @@
+实体类成员变量都使用引用类型(包装类)而不使用基本类型，空值可以为null,而不是默认值；
+
+O2O商城区域：(实体类解析)
+
+    1 - 店铺      (Show + ShopCategory)
+        1.2 - 店铺类别    (ShopCategory)
+
+    3 - 头条          (HeadLine)
+
+    4 - 用户信息        (PersonInfo)
+        4.1 - 本地帐号    (LocalAuth)
+    5 - 区域              (Area)
+
+    7 - 商品              (Product+ProductCategory+ProductImg)
+        7.1 - ID
+        7.2 - 名字
+        7.3 - 类别ID
+            7.3.1 - 商品类别          (通过外键 product_category_id 连接表tb_product_category)
+        7.4 - 描述 desc
+        7.5 - 缩略图地址 addr
+            7.5.1 - 详细图片  (通过外键 product_img_id 连接表 tb_product_img)
+        7.6 - 原价
+        7.7 - 折扣价
+        7.8 - 店铺ID
+            7.8.1 - 具体店铺    (通过外键shop_id连接表tb_shop)
+        7.9 - 状态
+        7.10 - 修改时间
+        7.11 - 创建时间
+
+
+
+    5 - 区域(Area)：
+        ·ID
+        ·名称
+        ·权重
+        ·创建时间
+        ·修改时间
+
+    4 - 用户(PersonInfo)：
+        ·ID
+        ·姓名
+        ·头像
+        ·性别
+        ·邮箱
+        ·身份标识
+        ·状态
+        ·创建时间
+        ·修改时间
+
+        4.1 - 本地用户(LocalAuth)：
+            ·用户信息 PersonInfo
+            ·ID
+            ·用户名
+            ·密码
+            ·创建时间
+            ·修改时间
+
+
+
+·优先开发出店家管理系统
+    - 连接数据库
+    - Mybatis数据库表映射关系的配置
+    - dao → service → controller 层代码
+    - Session , 图片处理工具Thumbnailator
+    - suimobile前端设计与开发
+
+·注意事务处理的定义位置，是处于Service层的，因此在service的操作使用抛出RuntimeException异常；
+
+
+
+Controller ---------------》 Service    ----------------》 Dao
+    ↑                        ↓ ↑
+     --------ResultType--------   --         DataType
+           (DataType+Msg)
+
+
+
+JavaScript 的异步请求会独立线程运行；注意同步问题，否则会出现获取的值无法及时return的情况
