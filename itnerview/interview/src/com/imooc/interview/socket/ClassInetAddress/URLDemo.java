@@ -28,10 +28,9 @@ public class URLDemo {
             InputStreamReader isr = new InputStreamReader(is);
             BufferedReader bfr = new BufferedReader(isr);
 
-            String data = bfr.readLine();
-            while (data!=null){
+            String data;
+            while ((data = bfr.readLine()) !=null){
                 System.out.println(data);
-                data=bfr.readLine();
             }
 
             bfr.close();
