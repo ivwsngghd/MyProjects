@@ -2,10 +2,10 @@ package com.imooc.interview;
 
 public class StringConstantPool {
     public static void main(String[] args) {
+        String s3 = "a" + "h" + new String("h");
         String standard = "ahh";
         String s1 = "a" + "hh";
         String s2 = "a" + "h" + "h";
-        String s3 = "a" + "h" + new String("h");
         String s4 = ("a" + new String("hh")).intern();  //手动入池
         //有new(即引用) 则存放在堆中，否则均在常量池中
         // 如果涉及引用(如new的匿名对象引用) 调用intern()方法 ,可进行入池操作
@@ -20,7 +20,7 @@ public class StringConstantPool {
         System.out.println("standard == s4：" + (standard == s4));   //虽然涉及引用，但是手动入池了，堆区转为方法区(常量池)存放；
 
         //典型例子：
-        String str1 = new String("a") + new String("a"); //new 在堆中国进行运算，那么只是单纯把引用加入了常量池而已，地址是在堆中的
+        String str1 = new String("a") + new String("a"); //new 在堆中进行运算，那么只是单纯把引用加入了常量池而已，地址是在堆中的
         str1.intern();          //入池则为true;无入池，就存放在堆区了，这也就是为什么new的不一样
         String str2 = "aa";//直接在常量池生成
         System.out.println("str1 == str2:  " + (str1 == str2));

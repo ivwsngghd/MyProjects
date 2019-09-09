@@ -1,0 +1,5 @@
+- 实现synchronized的基础：
+    · Java对象头，如图，而主要的两部分是：
+        - Mark Word：默认存储对象的hashcode，分代年龄，锁类型，锁标志位等信息；
+        - Class Metadata Address：类型指针指向对象的类元数据通过这个指针确定该对象是哪个类的数据
+    · Monitor锁(所有Java对象自带) 也称管程，监视器锁，一种同步机制

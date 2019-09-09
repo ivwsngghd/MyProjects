@@ -1,27 +1,24 @@
-package com.imooc.interview.thread;
+package com.imooc.interview.threadImplWays;
 
 import java.util.Random;
 
-public class ThreadSample2 {
+public class ThreadSample1 {
     public static void main(String[] args) {
-        Thread r1 = new Thread(new Runner2());
-        Thread r2 = new Thread(new Runner2());
-        Thread r3 = new Thread(new Runner2());
-
+        Runner1 r1 = new Runner1();
         r1.setName("张三");
+        Runner1 r2 = new Runner1();
         r2.setName("李四");
+        Runner1 r3 = new Runner1();
         r3.setName("王五");
-
         r1.start();
         r2.start();
         r3.start();
     }
+
 }
-
-class Runner2 implements Runnable{
-
+class Runner1 extends Thread{
     @Override
-    public void run() {
+    public void run(){
         Integer speed = new Random().nextInt(10) + 1;
         for (int i = 1; i <= 100; i++) {
             try {
@@ -29,7 +26,7 @@ class Runner2 implements Runnable{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(Thread.currentThread().getName() + "已前进" + (i * speed) + "米");
+            System.out.println(this.getName() + "已前进" + (i * speed) + "米");
         }
     }
 }

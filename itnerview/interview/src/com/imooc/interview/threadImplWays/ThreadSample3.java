@@ -1,4 +1,4 @@
-package com.imooc.interview.thread;
+package com.imooc.interview.threadImplWays;
 
 import java.util.Random;
 import java.util.concurrent.*;
