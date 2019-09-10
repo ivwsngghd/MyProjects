@@ -9,6 +9,7 @@ public class StringBufferWithoutSync {
         //因此sb属于不可能共享的资源,JVM会自动消除内部的锁
         StringBuffer sb = new StringBuffer();
         sb.append(str1).append(str2);
+        //没有return，不可能被其他线程对象进行引用(逃逸分析)，因此无需synchronized操作；编译器会对其进行优化
     }
 
     public static void main(String[] args) {

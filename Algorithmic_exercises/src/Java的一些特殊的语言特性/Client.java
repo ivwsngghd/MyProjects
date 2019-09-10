@@ -1,4 +1,4 @@
-package com.imooc.interview.socket.TCP;
+package Java的一些特殊的语言特性;
 
 import java.io.*;
 import java.net.Socket;
@@ -13,6 +13,7 @@ public class Client {
             OutputStream os = socket.getOutputStream();
             PrintWriter pw = new PrintWriter(os);//获取输出流包装成打印流；
             Scanner in = new Scanner(System.in);
+            System.out.println("连接服务器成功！");
             System.out.println("客户端输入信息：");
             String input ;
             while (!(input = in.next()).equals("-1")){
@@ -24,11 +25,11 @@ public class Client {
             System.out.println("信息已发送");
 
             //获取输入流，并且包装
-            BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String info;
-            while ((info = br.readLine())!= null){
-                System.out.println("我是客户端，服务器说：" + info);
-            }
+//            BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//            String info;
+//            while ((info = br.readLine())!= null){
+//                System.out.println("我是客户端，服务器说：" + info);
+//            }
             socket.shutdownInput();    //关闭输入流
 
             //关闭资源

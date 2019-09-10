@@ -1,0 +1,12 @@
+54.synchronized 和 ReentrantLock 有什么区别？
+    - ReentrantLock称为再入锁，何以实现比synchronized更细粒度的控制，譬如fairness;
+    - 必须使用unlock()释锁
+    - 也是可重入的，但未必性能更高
+    - 公平性：偏向把锁赋予等待时间最长的线程
+    - 公平锁：获取锁按调用lock的先后
+    - 判断是否有线程，或者某个特定线程，在线等候获取锁
+    - 前者是关键字，后者是类；
+    - ReentrantLock可以获取各种锁的信息，灵活实现多路通知；
+    - ReentrantLock可对锁的等待时间进行设置，避免死锁；
+    - synchronized操作Mark Word，ReentrantLock调用lock的再调用Unsafe类的park方法；
+

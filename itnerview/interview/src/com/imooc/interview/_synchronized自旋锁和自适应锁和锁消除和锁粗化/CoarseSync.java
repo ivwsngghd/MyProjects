@@ -1,6 +1,6 @@
 package com.imooc.interview._synchronized自旋锁和自适应锁和锁消除和锁粗化;
 
-//锁粗化
+//锁粗化：扩大锁的粒度，减少重复加锁的次数
 public class CoarseSync {
     public static String copyString100Times(String target){
         int i = 0;

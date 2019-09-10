@@ -14,6 +14,8 @@ public class StringConstantPool {
         System.out.println("s1==s3：" +(s1 == s3)); //new String("h")实则为引用，因此返回引用，实例存放于堆中；返回false
         System.out.println("s1==s4：" +(s1 == s4)); //对比的目标入池了，因此true
 
+
+
         System.out.println("standard == s1：" + (standard == s1));   //字符串拼接均为常量，true
         System.out.println("standard == s2：" + (standard == s2));   //同理
         System.out.println("standard == s3：" + (standard == s3));   //涉及引用 false;
@@ -25,7 +27,7 @@ public class StringConstantPool {
         String str2 = "aa";//直接在常量池生成
         System.out.println("str1 == str2:  " + (str1 == str2));
 
-        //总结：""的形式的字符串在编译阶段会被编译器进行优化(入池)，而设计引用形式的，编译器无法进行优化，会在堆区进行操作；
+        //总结：""的形式的字符串在编译阶段会被编译器进行优化(入池)，而涉及引用形式的，编译器无法进行优化，会在堆区进行操作；
         //""的复制因为不可变的特性，只复制引用对象(指针)；效率高；
         //不可变，线程安全
         //缺点：涉及字符串操作的时候消耗大
