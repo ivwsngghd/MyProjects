@@ -1,4 +1,4 @@
-package com.imooc.interview.threadSynchronized;
+package com.imooc.interview._ThreadPools;
 
 public class MyThread extends Thread {
     private String name;

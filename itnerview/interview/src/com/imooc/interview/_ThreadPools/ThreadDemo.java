@@ -1,4 +1,6 @@
-package com.imooc.interview.threadSynchronized;
+package com.imooc.interview._ThreadPools;
+
+import com.imooc.interview._ThreadPools.MyThread;
 
 public class ThreadDemo {
     public static void main(String[] args) {

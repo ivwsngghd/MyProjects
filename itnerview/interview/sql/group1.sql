@@ -1,4 +1,4 @@
-/*1.按部门编号升序、工资倒序的排列员工信息*/
+/*1.按部门编号升序、工资降序的排列员工信息*/
 SELECT * FROM emp ORDER BY deptno ASC , sal DESC
 /*2.列出deptno=30的部门名称及员工*/
 SELECT dept.dname , emp.* FROM emp , dept WHERE emp.deptno = dept.deptno and dept.deptno = 30

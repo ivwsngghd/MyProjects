@@ -1,4 +1,4 @@
-package com.imooc.interview.threadSynchronized;
+package com.imooc.interview._ThreadPools;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
