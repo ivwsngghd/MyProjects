@@ -23,7 +23,7 @@ public class _双冒号的用处 {
         });
 
         System.out.println();
-        Consumer<String> methodParam = AClass::printValue;;
+        Consumer<String> methodParam = AClass::printValue;
         strs.forEach(s -> methodParam.accept(s));
 
 
