@@ -2,14 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f74539-b219-4592-b52a-656bb0a3f854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/_ReentrantLock用法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/Synchronized的缺陷" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/SynchronizedSuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/可重入性质 - 理论部分" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/对象锁和类锁" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/synchronized总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/多线程访问同步方法的7种情况" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algorithmic_exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithmic_exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/LFUCache$Key_Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/LFUCache$Key_Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/LFUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithmic_exercises/out/production/Algorithmic_exercises/_唯品会面试/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithmic_exercises/src/_唯品会面试/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithmic_exercises/src/_唯品会面试/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/threadSynchronized/FutureTaskDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/threadSynchronized/MyCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/threadSynchronized/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/threadSynchronized/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/threadSynchronized/ThreadPoolDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/JMM/JIT使用的编译文件" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/JMM/_selfPlusAnalyzing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/JMM/jmm_note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/ReentrantLock/ReentrantLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/ReentrantLock/与synchronized的区别" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_ThreadPools/FutureTaskDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_ThreadPools/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_ThreadPools/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_ThreadPools/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_ThreadPools/ThreadPoolDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized/SyncDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized/SyncThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized底层实现原理/synchronized实现的底层原理" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized底层实现原理/synchronized底层实现原理.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized底层实现原理/利用Javap反编译.class文件" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/socket/UDP/UDP笔记" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview/com/imooc/interview/socket/UDP/UDP笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/JMM/JIT使用的编译文件" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/JIT使用的编译文件" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/JMM/_selfPlusAnalyzing.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/JMM/_selfPlusAnalyzing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/JMM/jmm_note" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/jmm_note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/ReentrantLock/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/ReentrantLock/与synchronized的区别" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/与synchronized的区别" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/FutureTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized/SyncDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized/SyncThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/SyncBlockAndMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/synchronized实现的底层原理" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized实现的底层原理" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/synchronized底层实现原理.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized底层实现原理.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/利用Javap反编译.class文件" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/利用Javap反编译.class文件" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDP笔记" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDP笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../o2o/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,65 +70,57 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/Synchronized的缺陷">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/CurrentThreadDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/synchronized总结">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#362#370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadPoolDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyThread.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/ReentrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/_ReentrantLock用法.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,19 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/FileCopy.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/ServerThread.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/DatagramPacket.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/DatagramPacketdemo.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/DatagramPacketDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDP笔记" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDPServer.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDPClient.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/note" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/Re.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/interview/reflect/ReflectSample.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/ClassInetAddress/InetAddressDemo.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/ClassInetAddress/URLDemo.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Server.java" />
@@ -151,6 +179,19 @@
         <option value="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/FutureTaskDemo.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDP笔记" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock2.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_synchronized锁的各种使用方式/SyncDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_synchronized锁的各种使用方式/对象锁和类锁" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/对象锁和类锁" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/多线程访问同步方法的7种情况" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/SynchronizedSuperClass.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/可重入性质 - 理论部分" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized实现的底层原理" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/_ReentrantLock用法.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/Synchronized的优点和缺陷" />
+        <option value="$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/synchronized总结" />
       </list>
     </option>
   </component>
@@ -166,58 +207,21 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="160" />
-    <option name="y" value="85" />
-    <option name="width" value="1335" />
-    <option name="height" value="935" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1517" />
+    <option name="y" value="178" />
+    <option name="width" value="1070" />
+    <option name="height" value="750" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="_ThreadPools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="threadSynchronized" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -229,14 +233,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="FixedThread&#9;PSI&#9;JAVA://sun.nio.ch.AsynchronousChannelGroupImpl#fixedThreadCount" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568686543755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569238876972" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -247,23 +265,25 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized自旋锁和自适应锁和锁消除" />
-      <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized底层实现原理" />
-      <recent name="D:\imooc\面试课程\源代码\interview\lib" />
-      <recent name="D:\imooc\面试课程\源代码\interview" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.interview.ReentrantLock" />
-      <recent name="com.imooc.interview.jdbc" />
-      <recent name="com.imooc.interview.sorter" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized底层实现原理" />
       <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized" />
       <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview" />
       <recent name="D:\imooc\面试课程\源代码\interview\sql" />
       <recent name="D:\imooc\面试课程\源代码\interview\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.interview._synchronized锁的各种使用方式" />
+      <recent name="com.imooc.interview.ReentrantLock" />
+      <recent name="com.imooc.interview.jdbc" />
+      <recent name="com.imooc.interview.sorter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_关于多线程的问题\_synchronized的可重入性" />
+      <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized自旋锁和自适应锁和锁消除" />
+      <recent name="E:\GitRepository\itnerview\interview\src\com\imooc\interview\_synchronized底层实现原理" />
+      <recent name="D:\imooc\面试课程\源代码\interview\lib" />
+      <recent name="D:\imooc\面试课程\源代码\interview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,20 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SyncDemo">
-    <configuration name="ReflectSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.reflect.ReflectSample" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.interview.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SynchronizedSuperClass">
     <configuration name="StringConstantPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.interview.StringConstantPool" />
       <module name="interview" />
@@ -306,11 +313,11 @@
       </method>
     </configuration>
     <configuration name="SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview._synchronized.SyncDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.SyncDemo" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview._synchronized.*" />
+          <option name="PATTERN" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.socket.UDP.UDPClient" />
+    <configuration name="SynchronizedObkectCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.SynchronizedObkectCodeBlock" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.socket.UDP.*" />
+          <option name="PATTERN" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +338,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.interview.socket.ClassInetAddress.URLDemo" />
+    <configuration name="SynchronizedObkectCodeBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.SynchronizedObkectCodeBlock2" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.interview.socket.ClassInetAddress.*" />
+          <option name="PATTERN" value="com.imooc.interview._关于多线程的问题._synchronized锁的各种使用方式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedSuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.interview._关于多线程的问题._synchronized的可重入性.SynchronizedSuperClass" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.interview._关于多线程的问题._synchronized的可重入性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +365,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UDPClient" />
-      <item itemvalue="Application.ReflectSample" />
       <item itemvalue="Application.StringConstantPool" />
-      <item itemvalue="Application.URLDemo" />
       <item itemvalue="Application.SyncDemo" />
+      <item itemvalue="Application.SynchronizedObkectCodeBlock" />
+      <item itemvalue="Application.SynchronizedObkectCodeBlock2" />
+      <item itemvalue="Application.SynchronizedSuperClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedSuperClass" />
+        <item itemvalue="Application.SynchronizedObkectCodeBlock2" />
+        <item itemvalue="Application.SynchronizedObkectCodeBlock" />
         <item itemvalue="Application.SyncDemo" />
         <item itemvalue="Application.StringConstantPool" />
-        <item itemvalue="Application.URLDemo" />
-        <item itemvalue="Application.ReflectSample" />
-        <item itemvalue="Application.UDPClient" />
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +415,9 @@
       <workItem from="1568086137534" duration="9489000" />
       <workItem from="1568219839794" duration="3290000" />
       <workItem from="1568685912334" duration="1227000" />
+      <workItem from="1568812239763" duration="4728000" />
+      <workItem from="1569202843746" duration="13219000" />
+      <workItem from="1569287470656" duration="2978000" />
     </task>
     <task id="LOCAL-00001" summary="to update my note about URL">
       <created>1567954714174</created>
@@ -421,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120395000" />
+    <option name="totallyTimeSpent" value="141320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,39 +456,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82165605" visible="true" weight="0.1883378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82165605" visible="true" weight="0.2077748" />
       <window_info id="Structure" order="1" sideWeight="0.17834395" side_tool="true" weight="0.19571045" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43687943" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14184397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11914894" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.09787234" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24539007" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2141844" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32907802" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32954547" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32954547" />
       <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
@@ -524,92 +548,28 @@
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock2.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.getState()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadImplWays/ThreadSample3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadImplWays/ThreadSample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Compile/JAVAjdk8/jre/lib/rt.jar!/sun/nio/ch/AsynchronousChannelGroupImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/sorter/ListSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/sorter/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/sorter/SetSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadImplWays/ThreadSample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/CASCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized/Synchronized底层实现原理" />
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized/SyncDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/interview/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Compile/JAVAjdk8/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2333">
-          <caret line="267" column="37" selection-start-line="267" selection-start-column="37" selection-end-line="267" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Compile/JAVAjdk8/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -624,36 +584,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/利用Javap反编译.class文件">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/synchronized实现的底层原理">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/synchronized底层实现原理.png">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized底层实现原理.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized/SyncThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/DeadLock.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -669,21 +601,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/StringConstantPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -691,31 +616,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/ReentrantLockDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/ReentrantLock/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/ReentrantLock/与synchronized的区别">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/JMM/jmm_note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -740,31 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/JMM/_selfPlusAnalyzing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/JMM/JIT使用的编译文件">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/JIT使用的编译文件">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/JMM/_selfPlusAnalyzing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -775,31 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/reflect/ReflectSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -824,52 +686,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/CurrentThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/FutureTaskDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/threadSynchronized/CurrentThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/MyCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_ThreadPools/ThreadPoolDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/TCP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/socket/UDP/UDP笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/StringConstantPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/reflect/ReflectSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/SyncBlockAndMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/利用Javap反编译.class文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2277">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Compile/JAVAjdk8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/对象锁和类锁">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/SynchronizedSuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/可重入性质 - 理论部分">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/与synchronized的区别">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/JMM/jmm_note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized实现的底层原理">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/多线程访问同步方法的7种情况">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/_ReentrantLock用法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/synchronized总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/interview/_关于多线程的问题/Synchronized的缺陷">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

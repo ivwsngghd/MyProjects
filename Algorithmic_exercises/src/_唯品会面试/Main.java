@@ -11,7 +11,7 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args) {
-        LFUCache lfuCache = new LFUCache(3);
+        LFUCache lfuCache = new LFUCache(2);
 
         lfuCache.add("key2", new Integer(2));
         lfuCache.add("key3", new Integer(3));
@@ -60,6 +60,10 @@ public class Main {
         System.out.println(lfuCache.getValue("key4"));
         System.out.println(lfuCache.getValue("key2"));
 
+        for (int i = 0; i < 15; i++) {
+            System.out.println(lfuCache.getValue("key6"));
+        }
+
     }
 }
 
@@ -81,6 +85,7 @@ class LFUCache<Key, Value> {
 
     public void add(Key key, Value value) {
         hashMap.put(key, new Key_Value(key, value));
+        System.out.println("queueSize:" + cacheQueue.size());
         if (cacheQueue.size() < k) cacheQueue.add(new Key_Value(key, value));        //小于允许缓存数量直接加入
         else {
             Key_Value key_value = hashMap.get(key);
@@ -112,7 +117,7 @@ class LFUCache<Key, Value> {
         Key_Value key_value = hashMap.get(key);
         key_value.use_frequence++;
         if (key_value.use_frequence > cacheQueue.peek().use_frequence) {
-            cacheQueue.poll();
+            cacheQueue.remove(key_value);
             cacheQueue.add(key_value);
         }
 

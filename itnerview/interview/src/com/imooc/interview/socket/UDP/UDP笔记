@@ -5,7 +5,6 @@
     - 构造方法： DatagramPacket(byte[] buf, int length)
     - 用来接收长度为length的数据报
 
-
 相关操作类：DatagramSocket，进行端到端通信的类
     - 无参数构造方法 ：构造数据报套接字并将其绑定到本地主机上任何可用的端口。
     - 构造方法：DatagramSocket(int port, InetAddress laddr) 指定端口，绑定到指定的本地地址
