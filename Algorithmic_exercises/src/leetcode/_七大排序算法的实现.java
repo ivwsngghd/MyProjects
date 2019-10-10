@@ -265,7 +265,8 @@ public class _七大排序算法的实现 {
     private static <AnyType extends Comparable<? super AnyType>> void quickSort(AnyType[] a, int left, int right) {
         //开始分割：
         if (left > right) return;    //递归出口
-        AnyType base = median3(a, left, right);    //base作为枢纽，而且此时a[left]<=a[center](base)<=a[right]
+//        AnyType base = median3(a, left, right);    //base作为枢纽，而且此时a[left]<=a[center](base)<=a[right]
+        AnyType base = a[left];    //base作为枢纽，而且此时a[left]<=a[center](base)<=a[right]
         int i = left, j = right;
         while (i != j) {
             //先选大

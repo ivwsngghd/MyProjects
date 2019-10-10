@@ -2,72 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0927bc82-b263-4e39-9010-3fa72ee69af9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java库中的常用具体集合/TheCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java的一些特殊的语言特性/draftDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_104__maxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_344_reverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_46_permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/_557__reverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/__LCP2_分数化简.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/_ReentrantLock用法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/Synchronized的缺陷" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/SynchronizedSuperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized的可重入性/可重入性质 - 理论部分" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SynchronizedObkectCodeBlock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/对象锁和类锁" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/synchronized总结" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/多线程访问同步方法的7种情况" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java库中的常用具体集合/TheMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/网易外包面试/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/Java的一些特殊的语言特性/_贪婪懒惰占有三种正则表达式.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/Java的一些特殊的语言特性/_贪婪懒惰占有三种正则表达式.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/LFUCache$Key_Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/LFUCache$Key_Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/_唯品会面试/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java的一些特殊的语言特性/_贪婪懒惰占有三种正则表达式.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java的一些特殊的语言特性/_贪婪懒惰占有三种正则表达式.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_唯品会面试/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_唯品会面试/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/JMM/JIT使用的编译文件" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/JMM/_selfPlusAnalyzing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/JMM/jmm_note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/ReentrantLock/ReentrantLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/ReentrantLock/与synchronized的区别" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_ThreadPools/FutureTaskDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_ThreadPools/MyCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_ThreadPools/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_ThreadPools/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_ThreadPools/ThreadPoolDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized/SyncDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized/SyncThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized底层实现原理/synchronized实现的底层原理" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized底层实现原理/synchronized底层实现原理.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized底层实现原理/利用Javap反编译.class文件" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/socket/UDP/UDP笔记" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/out/production/interview/com/imooc/interview/socket/UDP/UDP笔记" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/JMM/JIT使用的编译文件" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/JMM/JIT使用的编译文件" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/JMM/_selfPlusAnalyzing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/JMM/_selfPlusAnalyzing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/JMM/_selfPlusAnalyzing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/JMM/jmm_note" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/JMM/jmm_note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/ReentrantLock/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/ReentrantLock/与synchronized的区别" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/ReentrantLock/与synchronized的区别" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_ThreadPools/FutureTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/FutureTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_ThreadPools/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_ThreadPools/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_ThreadPools/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_ThreadPools/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_ThreadPools/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized/SyncDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized/SyncThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized锁的各种使用方式/SyncThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized底层实现原理/SyncBlockAndMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/SyncBlockAndMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized底层实现原理/synchronized实现的底层原理" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized实现的底层原理" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized底层实现原理/synchronized底层实现原理.png" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/synchronized底层实现原理.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized底层实现原理/利用Javap反编译.class文件" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized底层实现原理/利用Javap反编译.class文件" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/CoarseSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/StringBufferWithoutSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/_关于多线程的问题/_synchronized自旋锁和自适应锁和锁消除和锁粗化/自旋锁和自适应锁" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/socket/UDP/UDP笔记" beforeDir="false" afterPath="$PROJECT_DIR$/../itnerview/interview/src/com/imooc/interview/socket/UDP/UDP笔记" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../o2o/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/ChiefTechnology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/ChiefTechnology.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/_七大排序算法的实现.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithmic_exercises/leetcode/_七大排序算法的实现.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/draftDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="297">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,14 +31,90 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/__LCP2_分数化简.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="297">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_唯品会面试/__543_二叉树的直径.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_唯品会面试/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java库中的常用具体集合/TheMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-709">
+              <caret line="253" column="5" lean-forward="true" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/网易外包面试/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/MyBinarySearchTree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Compile/JAVAjdk8/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24090">
+              <caret line="788" column="38" selection-start-line="788" selection-start-column="38" selection-end-line="788" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#49043#49044#0" expanded="true" />
+                <element signature="e#49082#49083#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/_线程池的种类和创建方法.java" />
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/Client.java" />
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/_线程池的种类和创建方法以及Socket的基本使用方法.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_43__multiply.java" />
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/MyBinarySearchTree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/_唯品会面试/LFUCache.java" />
@@ -140,6 +156,9 @@
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/Demo.java" />
         <option value="$PROJECT_DIR$/src/Java的一些特殊的语言特性/draftDemo.java" />
         <option value="$PROJECT_DIR$/src/leetcode/__LCP2_分数化简.java" />
+        <option value="$PROJECT_DIR$/src/Java库中的常用具体集合/TheMath.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java" />
+        <option value="$PROJECT_DIR$/src/网易外包面试/Main.java" />
       </list>
     </option>
   </component>
@@ -149,11 +168,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-1278" />
-    <option name="y" value="110" />
-    <option name="width" value="933" />
-    <option name="height" value="748" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="105" />
+    <option name="y" value="465" />
+    <option name="width" value="1585" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,7 +183,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,32 +205,20 @@
               <item name="Algorithmic_exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithmic_exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java库中的常用具体集合" type="462c0819:PsiDirectoryNode" />
-              <item name="TheCollections.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Algorithmic_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithmic_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Java的一些特殊的语言特性" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithmic_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithmic_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569664970905" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570589803154" />
+    <property name="last_opened_file_path" value="E:/gmmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -241,13 +247,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.__LCP2_分数化简">
-    <configuration name="_贪婪懒惰占有三种正则表达式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java的一些特殊的语言特性._贪婪懒惰占有三种正则表达式" />
+  <component name="RunManager" selected="Application._七大排序算法的实现">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="网易外包面试.Main" />
       <module name="Algorithmic_exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java的一些特殊的语言特性.*" />
+          <option name="PATTERN" value="网易外包面试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_344_reverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._344_reverseString" />
+    <configuration name="TheMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java库中的常用具体集合.TheMath" />
       <module name="Algorithmic_exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="Java库中的常用具体集合.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,8 +274,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_557__reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._557__reverseWords" />
+    <configuration name="_七大排序算法的实现" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode._七大排序算法的实现" />
       <module name="Algorithmic_exercises" />
       <extension name="coverage">
         <pattern>
@@ -308,19 +314,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._344_reverseString" />
-      <item itemvalue="Application._557__reverseWords" />
-      <item itemvalue="Application._贪婪懒惰占有三种正则表达式" />
       <item itemvalue="Application.draftDemo" />
       <item itemvalue="Application.__LCP2_分数化简" />
+      <item itemvalue="Application.TheMath" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application._七大排序算法的实现" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._七大排序算法的实现" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TheMath" />
         <item itemvalue="Application.__LCP2_分数化简" />
         <item itemvalue="Application.draftDemo" />
-        <item itemvalue="Application._贪婪懒惰占有三种正则表达式" />
-        <item itemvalue="Application._557__reverseWords" />
-        <item itemvalue="Application._344_reverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -353,17 +359,20 @@
       <workItem from="1569400956654" duration="870000" />
       <workItem from="1569569968421" duration="5114000" />
       <workItem from="1569653774885" duration="2198000" />
+      <workItem from="1570450087762" duration="4111000" />
+      <workItem from="1570518588082" duration="2856000" />
+      <workItem from="1570589581070" duration="215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67389000" />
+    <option name="totallyTimeSpent" value="74571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1406" y="88" width="746" height="598" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.63372093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -373,7 +382,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962264" weight="0.24822696" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962264" weight="0.15509601" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42411348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,7 +390,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50037736" side_tool="true" weight="0.53872055" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.227957" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22695035" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -403,18 +412,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java</url>
-          <line>326</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/leetcode/_202__HappyNum.java">
@@ -459,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10692">
-          <caret line="326" column="31" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/_1__TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -477,13 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -502,13 +485,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_唯品会面试/LFUCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/MyBinarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/_双冒号的用处.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -520,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_唯品会面试/__543_二叉树的直径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -600,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_唯品会面试/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2306">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java库中的常用具体集合/TheCollections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -626,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/draftDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="297">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,11 +598,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/__LCP2_分数化简.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="297">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_唯品会面试/__543_二叉树的直径.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_唯品会面试/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java库中的常用具体集合/TheMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Compile/JAVAjdk8/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24090">
+          <caret line="788" column="38" selection-start-line="788" selection-start-column="38" selection-end-line="788" selection-end-column="38" />
           <folding>
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#49043#49044#0" expanded="true" />
+            <element signature="e#49082#49083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java的一些特殊的语言特性/MyBinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_七大排序算法的实现.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-709">
+          <caret line="253" column="5" lean-forward="true" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/网易外包面试/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
