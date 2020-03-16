@@ -12,8 +12,9 @@
 target/
 src/test/
 out/
-Algorithmic_exercises/out
-*/out
+Algorithmic_exercises/out/
+Algorithmic_exercises/.idea/
+*/out/
 
 #eclipse ignore
 .settings/
