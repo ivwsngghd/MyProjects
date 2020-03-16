@@ -12,6 +12,8 @@
 target/
 src/test/
 out/
+Algorithmic_exercises/out
+*/out
 
 #eclipse ignore
 .settings/
@@ -36,3 +38,4 @@ out/
 # system ignore
 .DS_Store
 Thumbs.db
+
