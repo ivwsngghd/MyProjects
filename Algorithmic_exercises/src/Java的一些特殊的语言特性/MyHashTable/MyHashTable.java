@@ -26,7 +26,6 @@ public class MyHashTable {
 
     /**
      * 哈希方法，根据这个方法可以确定元素位置
-     *
      * @param key
      * @return
      */
@@ -48,10 +47,10 @@ public class MyHashTable {
             myEntryTables[index] = new MyEntry(-1, -1, null); //?? TODO
         }
 
-        MyEntry e = myEntryTables[index];
-        if (e.getNextMyEntry() == null) {
+        MyEntry entry = myEntryTables[index];
+        if (entry.getNextMyEntry() == null) {
             //不存在值，向链表添加，有可能扩容，要用
-            e.setNextMyEntry(new MyEntry(key, value, null));
+            entry.setNextMyEntry(new MyEntry(key, value, null));
             size++;
             use++;
             //不存在值，说明是个未用过的地址，需要判断是否需要扩容；
@@ -59,11 +58,9 @@ public class MyHashTable {
                 resize();
             }
         } else {
-
-
-            for (e = e.getNextMyEntry(); e.getNextMyEntry() != null; e = e.getNextMyEntry()) {
-                if (e.getKey() == key) {
-                    e.setValue(value);
+            for (entry = entry.getNextMyEntry(); entry.getNextMyEntry() != null; entry = entry.getNextMyEntry()) {
+                if (entry.getKey() == key) {
+                    entry.setValue(value);
                     return;
                 }
             }
